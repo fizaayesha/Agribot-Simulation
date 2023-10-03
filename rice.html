@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rice Data</title>
+</head>
+<body>
+    <h1>Rice Data</h1>
+    <table border="1">
+        <tr>
+            <th>Temperature</th>
+            <th>Humidity</th>
+            <th>Label</th>
+        </tr>
+        {% for row in data %}
+            <tr>
+                <td>{{ row['temperature'] }}</td>
+                <td>{{ row['humidity'] }}</td>
+                <td>{{ row['label'] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
