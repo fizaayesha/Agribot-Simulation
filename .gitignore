@@ -5,6 +5,7 @@ build/
 myenv
 .vs/
 .vscode/
+Crop_recommendation.csv
 
 tmp_*
 data?
